@@ -1,9 +1,10 @@
 # tanihub
 
 Installation:
-    - pip install robotframework
-    - pip install robotframework-requests
-    - pip install robotframework-jsonlibrary
+
+- pip install robotframework
+- pip install robotframework-requests
+- pip install robotframework-jsonlibrary
 
 How to Run in robot FrameWork:
 ```
