@@ -85,6 +85,6 @@ Create Vehicle and Then Get Response 201 Created
 
     Create Session                    create_vehicle                            ${base_url}         verify=true
     ${headers}                        Create Dictionary                         Content-Type=application/json
-    ${response}=                      Post Request           create_vehicle     ${get_endpoint}     headers=${headers}
+    ${response}=                      Post Request           create_vehicle     ${get_endpoint}     headers=${headers}     data=${data}
     Should Be Equal As Strings        ${response.status_code}                   201
     Log To Console                    ${response.json()}
